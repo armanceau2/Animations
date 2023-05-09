@@ -1,0 +1,95 @@
+
+
+
+html{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 35%;
+
+    background-image: url('./assets/img/bg-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.right{
+    width: 65%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    background-color: bisque;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.buttons{
+
+    background-color: aliceblue;
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+button{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+}
+
+input{
+    padding: 20px 30px 20px 30px;
+}
